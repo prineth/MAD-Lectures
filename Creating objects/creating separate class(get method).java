@@ -2,11 +2,13 @@ public class person
 {
     private String name;
     
+    //GETTER
     private String getName()
     {
         return name;
     }
     
+    //SETTER
     private void setName(String newName)
     {
         this.name = newName;
