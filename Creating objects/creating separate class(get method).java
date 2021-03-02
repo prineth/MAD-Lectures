@@ -25,3 +25,5 @@ public class main()
     }
 
 }
+
+//https://www.w3schools.com/java/java_encapsulation.asp
