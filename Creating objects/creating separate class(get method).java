@@ -2,19 +2,24 @@ public class person
 {
     private String name;
     
-    public String get name(){
+    private String getName()
+    {
         return name;
     }
     
-    pubic void setName(String newName){
+    private void setName(String newName)
+    {
         this.name = newName;
     }
 }
 
-public class main(){
-    public static void main (String[] args){
+public class main()
+{
+    public static void main (String[] args)
+    {
         person myObj = new person();
-        myObj.name ="Nimal";
+        myObj.name = "Nimal";
         System.out.println(myObj.name);
     }
+
 }
